@@ -1,0 +1,128 @@
+/* Общие стили */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 576px) {
+    section.hero {
+        text-align: center;
+    }
+    section.hero .img-fluid {
+        width: 95%;
+    }
+}
+
+
+/* SERVICES */
+
+section.services i {
+    font-size: 2rem;
+    margin: 1rem auto 0;
+    border: 2px solid #000000;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5a841;
+}
+
+
+/* ABOUT */
+
+@media screen and (min-width: 1024px) {
+    section.about .container,
+    section.testimonials .container {
+        width: 90%;
+    }
+}
+
+
+/* PROJECTS */
+
+section.projects .card {
+    background-color: #fff;
+    width: 500px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 40px #434040;
+    margin: auto;
+    margin-top: 120px;
+    max-width: 19rem;
+    text-align: left;
+}
+
+section.projects .card img {
+    font-size: 25px;
+    border-radius: 8px
+}
+
+
+/* TESTIMONIALS */
+
+section.testimonials .carousel-control-prev,
+section.testimonials .carousel-control-next {
+    width: 5%;
+}
+
+section.testimonials .carousel-item p {
+    max-width: 80%;
+    border-left: 5px solid #f5a841;
+    padding-left: 1rem;
+}
+
+section.testimonials .carousel-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section.testimonials .carousel.carousel-fade .carousel-item {
+    transition: opacity 0.5s;
+}
+
+
+/* CONTACT */
+
+section.contact .social-media a {
+    padding: 0 0.5rem;
+    font-size: 1.3rem;
+}
+
+
+/* Дополнительные стили */
+
+section.projects {
+    background-color: #f5f5f5;
+}
+
+
+/* Кнопка "Позвонить" */
+
+.call-button {
+    font-size: 18px;
+    margin-top: 15px;
+    background: #0cba06;
+    color: #0cba06;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.call-button:hover {
+    background: #f5a841;
+}
+
+.a href admin.html {
+    font-size: 25px;
+    box-sizing: 6px;
+    display: flex;
+    display: central;
+    margin: auto;
+}

@@ -1,0 +1,50 @@
+/* styles.css */
+
+
+/* Общие стили для страницы */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #849ce8;
+}
+
+header {
+    background-color: #02f72f;
+    color: #090a09;
+    text-align: center;
+    font-size: 25px;
+    padding: 1px 0;
+}
+
+main {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    display: flex;
+}
+
+.category {
+    display: flex;
+    width: calc(50% - 20px);
+    /* Чтобы две категории уместились на одной строке */
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 10px 10px 40px #434040;
+}
+
+.category img {
+    width: 100%;
+    margin: auto;
+    /* Центрирование изображения */
+    border-radius: 5px;
+}
+
+.category h2,
+.category p {
+    text-align: center;
+    margin-bottom: 10px;
+}
